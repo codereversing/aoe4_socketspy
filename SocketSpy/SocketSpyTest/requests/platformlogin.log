@@ -1,0 +1,10 @@
+POST /game/login/platformlogin HTTP/1.1
+Host: aoe-api.reliclink.com
+Accept-Encoding: identity
+Accept: */*
+Content-Length: 524
+Pragma: no-cache
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cache-Control: no-store
+
+accountType=STEAM&activeMatchId=-1&alias=name&appID=8888&auth=authzzz&callNum=123&clientLibVersion=5&connect_id=&country=US&installationType=windows&language=en&lastCallTime=111&macAddress=mac&majorVersion=0.0.0&minorVersion=7777&platformUserID=666&startGameToken=&syncHash=%5B0%2C0%5D&timeoutOverride=0&title=age4

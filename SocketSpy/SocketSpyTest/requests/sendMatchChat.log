@@ -1,0 +1,11 @@
+POST /game/party/sendMatchChat HTTP/1.1
+Cookie: ApplicationGatewayAffinity=0;ApplicationGatewayAffinityCORS=1;reliclink=2;
+Host: aoe-api.reliclink.com
+Accept-Encoding: identity
+Accept: */*
+Content-Length: 229
+Pragma: no-cache
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cache-Control: no-store
+
+broadcast=1&callNum=123&connect_id=ccc&from_profile_id=111&lastCallTime=111&match_id=555&message=dummymsg&messageTypeID=2&sessionID=zzz&to_profile_id=222

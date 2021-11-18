@@ -1,0 +1,12 @@
+POST /game/account/FindProfilesByPlatformID HTTP/1.1
+Cookie: ApplicationGatewayAffinity=0;ApplicationGatewayAffinityCORS=1;reliclink=2;
+Host: aoe-api.reliclink.com
+Accept-Encoding: identity
+Accept: */*
+Content-Length: 1688
+Pragma: no-cache
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cache-Control: no-store
+Expect: 100-continue
+
+callNum=123&connect_id=ccc&lastCallTime=111&platformIDs=%5B9%2C8%2C7%5D&sessionID=zzz

@@ -1,0 +1,12 @@
+POST /game/party/reportMatch HTTP/1.1
+Cookie: ApplicationGatewayAffinity=0;ApplicationGatewayAffinityCORS=1;reliclink=2;
+Host: aoe-api.reliclink.com
+Accept-Encoding: identity
+Accept: */*
+Content-Length: 1265
+Pragma: no-cache
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cache-Control: no-store
+Expect: 100-continue
+
+callNum=123&checkSums=%5B0%2C0%5D&connect_id=ccc&countersZip=zip&itemUpdates=upd&lastCallTime=111&match_id=555&profile_ids=%5B1%2C1%5D&race_ids=%5B1%2C2%2C3%5D&results=%5B0%2C1%5D&sessionID=zzz&simplayerIDs=%5B1%2C7%5D&teamIDs=%5B0%2C1%5D&xpGained=%5B2%2C20%5D

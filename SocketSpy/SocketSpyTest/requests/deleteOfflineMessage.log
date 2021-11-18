@@ -1,0 +1,11 @@
+POST /game/chat/deleteOfflineMessage HTTP/1.1
+Cookie: ApplicationGatewayAffinity=d0;ApplicationGatewayAffinityCORS=1;reliclink=2;
+Host: aoe-api.reliclink.com
+Accept-Encoding: identity
+Accept: */*
+Content-Length: 131
+Pragma: no-cache
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cache-Control: no-store
+
+callNum=123&connect_id=ccc&lastCallTime=111&messageID=333&sessionID=zzz

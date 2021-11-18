@@ -1,0 +1,9 @@
+GET /game/cloud/getFileURL?callNum=123&connect_id=ccc&lastCallTime=111&names=%5B%22Attrib.sga%22%2C%22EngineData.sga%22%5D&sessionID=zzz HTTP/1.1
+Cookie: ApplicationGatewayAffinity=0;ApplicationGatewayAffinityCORS=1;reliclink=2;
+Host: aoe-api.reliclink.com
+Accept-Encoding: identity
+Accept: */*
+Pragma: no-cache
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cache-Control: no-store
+

@@ -1,0 +1,11 @@
+POST /game/item/moveCharges HTTP/1.1
+Cookie: ApplicationGatewayAffinity=0;ApplicationGatewayAffinityCORS=1;reliclink=2;
+Host: aoe-api.reliclink.com
+Accept-Encoding: identity
+Accept: */*
+Content-Length: 202
+Pragma: no-cache
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cache-Control: no-store
+
+callNum=123&charges=%5B123%5D&connect_id=ccc&deletes=%5B1%5D&fromItemIDs=%5B321%5D&lastCallTime=111&sessionID=zzz&toItemIDs=%5B456%5D

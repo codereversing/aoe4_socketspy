@@ -1,0 +1,11 @@
+POST /game/advertisement/host HTTP/1.1
+Cookie: ApplicationGatewayAffinity=0;ApplicationGatewayAffinityCORS=1;reliclink=2;
+Host: aoe-api.reliclink.com
+Accept-Encoding: identity
+Accept: */*
+Content-Length: 941
+Pragma: no-cache
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cache-Control: no-store
+
+advertisementid=-1&appbinarychecksum=4141&automatchPoll_id=-1&callNum=123&connect_id=ccc&datachecksum=-777&description=SESSION_MATCH_KEY&hostid=1&isObservable=1&lastCallTime=111&mapname=no_map&matchtype=19&maxplayers=8&moddllchecksum=0&moddllfile=INVALID&modname=INVALID&modversion=INVALID&observerDelay=180&observerPassword=&options=opts&party=-1&password=&passworded=0&race=123&relayRegion=eastus&serviceType=0&sessionID=zzz&slotinfo=slot&state=-1&statgroup=-1&team=-1&versionFlags=0&visible=0

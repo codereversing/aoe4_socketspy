@@ -1,0 +1,11 @@
+POST /game/advertisement/join HTTP/1.1
+Cookie: ApplicationGatewayAffinity=0;ApplicationGatewayAffinityCORS=1;reliclink=2;
+Host: aoe-api.reliclink.com
+Accept-Encoding: identity
+Accept: */*
+Content-Length: 328
+Pragma: no-cache
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cache-Control: no-store
+
+advertisementid=1&appbinarychecksum=4141&callNum=123&connect_id=ccc&datachecksum=-777&lastCallTime=111&moddllchecksum=0&moddllfile=INVALID&modname=INVALID&modversion=INVALID&party=66&password=&race=123&sessionID=zzz&statgroup=-1&team=-1&versionFlags=0

@@ -1,0 +1,9 @@
+GET /game/item/getItemPrices?accountType=3&callNum=123&connect_id=ccc&country=us&currency=usd&lastCallTime=111&saleVersion=-1&sessionID=zzz HTTP/1.1
+Cookie: ApplicationGatewayAffinity=0;ApplicationGatewayAffinityCORS=1;reliclink=2;
+Host: aoe-api.reliclink.com
+Accept-Encoding: identity
+Accept: */*
+Pragma: no-cache
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cache-Control: no-store
+

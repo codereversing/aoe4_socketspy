@@ -1,0 +1,9 @@
+GET /game/news/getNews?callNum=123&connect_id=ccc&lastCallTime=111&sessionID=zzz HTTP/1.1
+Cookie: ApplicationGatewayAffinity=1;ApplicationGatewayAffinityCORS=2;reliclink=3;
+Host: aoe-api.reliclink.com
+Accept-Encoding: identity
+Accept: */*
+Pragma: no-cache
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cache-Control: no-store
+

@@ -1,0 +1,9 @@
+GET /game/advertisement/findAdvertisements?appBinaryChecksum=8888&callNum=123&connect_id=ccc&dataChecksum=-888&lastCallTime=111&matchType_id=0&modDLLChecksum=0&modDLLFile=INVALID&modName=INVALID&modVersion=INVALID&profile_ids=%5B1%2C1%5D&race_ids=%5B1%2C2%2C3%5D&sessionID=zzz&statGroup_ids=%5B4%2C5%2C6%5D&versionFlags=0 HTTP/1.1
+Cookie: ApplicationGatewayAffinity=0;ApplicationGatewayAffinityCORS=1;reliclink=2;
+Host: aoe-api.reliclink.com
+Accept-Encoding: identity
+Accept: */*
+Pragma: no-cache
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cache-Control: no-store
+

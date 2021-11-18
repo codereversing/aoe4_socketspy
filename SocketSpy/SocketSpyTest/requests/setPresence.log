@@ -1,0 +1,11 @@
+POST /game/relationship/setPresence HTTP/1.1
+Cookie: ApplicationGatewayAffinity=0;ApplicationGatewayAffinityCORS=1;reliclink=2;
+Host: aoe-api.reliclink.com
+Accept-Encoding: identity
+Accept: */*
+Content-Length: 126
+Pragma: no-cache
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cache-Control: no-store
+
+callNum=123&connect_id=ccc&lastCallTime=111&presence_id=3&sessionID=zzz

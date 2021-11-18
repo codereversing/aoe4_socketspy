@@ -1,0 +1,11 @@
+POST /game/automatch2/polling HTTP/1.1
+Cookie: ApplicationGatewayAffinity=0;ApplicationGatewayAffinityCORS=1;reliclink=2;
+Host: aoe-api.reliclink.com
+Accept-Encoding: identity
+Accept: */*
+Content-Length: 791
+Pragma: no-cache
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Cache-Control: no-store
+
+appBinCRC=9876&callNum=123&connect_id=ccc&dataCRC=6789&factionIDs=%5B0%2C0%2C0%2C0%5D&lastCallTime=111&matchTypes=%5B20%2C21%2C22%2C23%5D&modDLLFile=INVALID&modDllCRC=0&modName=INVALID&modVersion=INVALID&options=%5B%22%22%2C%22%22%2C%22%22%2C%22%22%5D&partySessionID=444&raceInfoKey=%5B0%2C1%2C2%2C3%5D&raceInfoProfileID=%5B1%2C1%2C1%2C1%5D&raceInfoRaceID=%5B8%2C8%2C8%2C8%5D&relayPingTimes=%5B1%2C1%2C2%2C2%2C3%2C3%2C4%2C4%2C5%5D&relayRegion=eastus&relayRegions=%5B%22westeurope%22%2C%22ukwest%22%2C%22australiasoutheast%22%2C%22westindia%22%2C%22eastus%22%2C%22southeastasia%22%2C%22brazilsouth%22%2C%22westus2%22%2C%22koreacentral%22%5D&sessionID=zzz&versionFlags=0

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\TestBench">
+      <UniqueIdentifier>{b474b714-4844-4861-b4df-263fed033630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TestBench">
+      <UniqueIdentifier>{19370600-d571-40fa-a6c2-01a0bf78220c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SocketSpyInternalSend\MessageView.cpp">
+      <Filter>Source Files\TestBench</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SocketSpyInternalSend\HookEngine.cpp">
+      <Filter>Source Files\TestBench</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SocketSpyInternalSend\Hooks.cpp">
+      <Filter>Source Files\TestBench</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SocketSpyInternalSend\HttpRequest.cpp">
+      <Filter>Source Files\TestBench</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SocketSpyInternalSend\HttpRequestMutator.cpp">
+      <Filter>Source Files\TestBench</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SocketSpyInternalSend\RequestApis.h">
+      <Filter>Header Files\TestBench</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SocketSpyInternalSend\HookEngine.h">
+      <Filter>Header Files\TestBench</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SocketSpyInternalSend\Hooks.h">
+      <Filter>Header Files\TestBench</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SocketSpyInternalSend\HttpRequest.h">
+      <Filter>Header Files\TestBench</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SocketSpyInternalSend\HttpRequestMutator.h">
+      <Filter>Header Files\TestBench</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SocketSpyInternalSend\MessageView.h">
+      <Filter>Header Files\TestBench</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SocketSpyInternalSend\Parameters.h">
+      <Filter>Header Files\TestBench</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

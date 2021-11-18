@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Messages">
+      <UniqueIdentifier>{e03841d3-bcb9-44e7-b22e-a099fe65a737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Requests">
+      <UniqueIdentifier>{984fd51d-32f1-43e3-ace6-febf686c7c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Messages">
+      <UniqueIdentifier>{54c6f5ff-e9fb-4b1d-b87e-6f38f03e8750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Requests">
+      <UniqueIdentifier>{9178a075-1cb7-48ef-b0d0-9684c08b24fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HookEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpRequest.cpp">
+      <Filter>Source Files\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpRequestMutator.cpp">
+      <Filter>Source Files\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageView.cpp">
+      <Filter>Source Files\Messages</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HookEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpRequest.h">
+      <Filter>Header Files\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpRequestMutator.h">
+      <Filter>Header Files\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestApis.h">
+      <Filter>Header Files\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameters.h">
+      <Filter>Header Files\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageView.h">
+      <Filter>Header Files\Messages</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Exports.def">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

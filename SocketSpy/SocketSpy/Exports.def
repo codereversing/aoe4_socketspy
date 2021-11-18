@@ -1,0 +1,3 @@
+LIBRARY   SOCKETSPY
+EXPORTS
+   DllMain   @1
