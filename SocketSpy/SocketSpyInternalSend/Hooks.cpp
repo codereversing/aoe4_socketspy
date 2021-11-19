@@ -109,7 +109,7 @@ HttpRequest GetRequest(SOCKET socket, const char* buffer, int length)
 	}
 
 	auto expectedLength{ request.Header("Content-Length") };
-	if (request.HttpType() == "POST" && expectedLength != request.Headers().end()) {
+	if ((request.HttpType() == "POST" || request.HttpType() == "PUT") && expectedLength != request.Headers().end()) {
 		if (request.Content().size() < std::stol(expectedLength->second)) {
 			m_incompleteRequests[socket] = request;
 		}
