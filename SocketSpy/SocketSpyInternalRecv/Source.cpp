@@ -15,7 +15,7 @@
 
 using namespace SocketSpy;
 
-void* ScanMemoryForSignature(void* baseAddress, std::span<unsigned char> signature)
+void* ScanMemoryForSignature(void* baseAddress, const std::span<unsigned char>& signature)
 {
 	MODULEINFO moduleInfo{};
 	auto result{ GetModuleInformation(GetCurrentProcess(), (HMODULE)baseAddress, &moduleInfo,
