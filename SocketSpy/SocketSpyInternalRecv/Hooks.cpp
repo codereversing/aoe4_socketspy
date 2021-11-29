@@ -23,7 +23,7 @@ namespace SocketSpy
 {
 
 using GameSendPacketFnc = int (WINAPI*)(void *, SOCKET, const char *, int, int *);
-using GameDecryptPacketFnc = int (WINAPI*)(char*, int, char*, size_t, char*);
+using GameDecryptPacketFnc = int (WINAPI*)(void*, int, char*, size_t, char*);
 
 std::vector<std::string> MakePrintableAscii(const char* buffer, int length, int maxLineLength = 80)
 {
@@ -91,18 +91,18 @@ std::pair <std::string /*IP Address*/, std::string /*Port*/> GetPeerInfo(SOCKET 
 	return std::make_pair(inet_ntoa(addr.sin_addr), std::to_string(addr.sin_port));
 }
 
-int WINAPI GameDecryptPacketHook(char* encryptedData, int alwaysZero, char* decryptBuffer,
+int WINAPI GameDecryptPacketHook(void* unknown, int alwaysZero, char* decryptBuffer,
 	size_t decryptBufferMaxSize, char* errorFlag)
 {
 	auto original{ (GameDecryptPacketFnc)HookEngine::GetOriginalAddressFromHook(GameDecryptPacketHook) };
 	int result{};
 	if (original != nullptr) {
-		result = original(encryptedData, alwaysZero, decryptBuffer, decryptBufferMaxSize, errorFlag);
+		result = original(unknown, alwaysZero, decryptBuffer, decryptBufferMaxSize, errorFlag);
 	}
 
 	while (result == -1) {
 		std::cerr << "Decrypt failed... retrying..." << std::endl;
-		result = original(encryptedData, alwaysZero, decryptBuffer, decryptBufferMaxSize, errorFlag);
+		result = original(unknown, alwaysZero, decryptBuffer, decryptBufferMaxSize, errorFlag);
 	}
 
 	auto output{ MakePrintableAscii(decryptBuffer, result) };

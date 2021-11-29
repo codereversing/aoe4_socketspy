@@ -8,7 +8,7 @@ namespace SocketSpy
 {
 
 int WINAPI GameSendPacketHook(void* unknown, SOCKET socket, const char *buffer, int length, int *sentSize);
-int WINAPI GameDecryptPacketHook(char *encryptedData, int alwaysZero, char *decryptBuffer,
+int WINAPI GameDecryptPacketHook(void *unknown, int alwaysZero, char *decryptBuffer,
 	size_t decryptBufferMaxSize, char* errorFlag);
 
 }
